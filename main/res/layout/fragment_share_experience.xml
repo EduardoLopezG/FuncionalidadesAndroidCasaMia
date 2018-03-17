@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eduardo.hotelcasamia.ShareExperienceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_hello_experience"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/dimen_margintop_hello_text"
+        android:id="@+id/text_one"
+        android:textSize="@dimen/dimen_general_text_experience"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_static_message_experience"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/text_one"
+        android:textSize="@dimen/dimen_general_text_experience"
+        android:textColor="@color/black"/>
+
+   <ImageButton
+       android:id="@+id/btn_share"
+       android:background="@drawable/ic_share_black_24dp"
+       android:layout_width="@dimen/dimen_btnshare"
+       android:layout_height="@dimen/dimen_btnshare"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btn_facebook"
+        android:layout_width="@dimen/dimen_size_buttons_sociales"
+        android:layout_height="@dimen/dimen_size_buttons_sociales"
+        android:layout_below="@id/btn_share"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_margintop_social"
+        android:src="@drawable/facebookbtn" />
+
+    <ImageButton
+        android:id="@+id/btn_twitter"
+        android:layout_width="@dimen/dimen_size_buttons_sociales"
+        android:layout_height="@dimen/dimen_size_buttons_sociales"
+        android:layout_alignTop="@+id/btn_facebook"
+        android:layout_marginEnd="@dimen/dimen_margin_social_buttons"
+        android:layout_marginRight="@dimen/dimen_margin_social_buttons"
+        android:layout_toLeftOf="@+id/btn_facebook"
+        android:layout_toStartOf="@+id/btn_facebook"
+        android:src="@drawable/twitterbtn" />
+
+    <ImageButton
+        android:id="@+id/btn_whatssapp"
+        android:layout_width="@dimen/dimen_size_buttons_sociales"
+        android:layout_height="@dimen/dimen_size_buttons_sociales"
+        android:layout_alignTop="@+id/btn_facebook"
+        android:layout_marginLeft="@dimen/dimen_size_whatsapp_button"
+        android:layout_marginStart="@dimen/dimen_size_whatsapp_button"
+        android:layout_toEndOf="@+id/btn_facebook"
+        android:layout_toRightOf="@+id/btn_facebook"
+        android:src="@drawable/whatsappbtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_facebook"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/text_footer_first"
+            android:textSize="@dimen/dimen_text_footer_size"
+            android:textColor="@color/darkGray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/text_footer_second"
+            android:textSize="@dimen/dimen_text_footer_size"
+            android:textColor="@color/darkGray"/>
+    </LinearLayout>
+
+</RelativeLayout>

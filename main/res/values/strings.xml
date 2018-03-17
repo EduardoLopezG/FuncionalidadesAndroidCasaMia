@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Hotel CasaMia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Option in MainFragment -->
+    <string name="action_login">Iniciar Sesión</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="text_share_experience">Me encuentro en un buen lugar, ¿Por qué no le hechas un vistazo? https://www.hotelcasamia.com.mx/</string>
+    <string name="text_static_message_experience">Oye tu opinión es muy importante para nosotros así que, ¿Por qué no la compartes con todos tus amigos?</string>
+    <string name="text_hello_experience">¡Hola!</string>
+    <string name="text_footer_first">Imágenes pertenecientes a:</string>
+    <string name="text_footer_second">Twitter.com - Facebook.com - WhatsApp.com</string>
+    
+    <!-- Text Places List -->
+    <!-- Inglesia Nuestra Señora de los Dolores -->
+    <string name="church_sedolores_name">Parroquia de Nuestra Señora de los Dolores</string>
+    <string name="church_sedolores_short_description">Info</string>
+    <string name="church_sedolores_large_description">Para otorgar a su documento un aspecto profesional, Word proporciona encabezados, pies de página, páginas de portada
+        y diseños de cuadro de texto que se complementan entre sí. Por ejemplo, puede agregar una portada coincidente, el encabezado y la barra lateral. Haga clic en Insertar
+        y elija los elementos que desee de las distintas galerías.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

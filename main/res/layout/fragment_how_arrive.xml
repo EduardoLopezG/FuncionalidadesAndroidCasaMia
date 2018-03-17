@@ -1,0 +1,57 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eduardo.hotelcasamia.HowArriveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapLayout"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_view_satelite"
+                android:layout_width="@dimen/bottom_widht_howArrive"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Satelite" />
+
+            <Button
+                android:id="@+id/btn_view_hybrid"
+                android:layout_width="@dimen/bottom_widht_howArrive"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hibrido" />
+
+            <Button
+                android:id="@+id/btn_view_normal"
+                android:layout_width="@dimen/bottom_widht_howArrive"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Normal" />
+
+        </LinearLayout>
+
+        <!-- We copy this to the "fragment_how_arrive" -->
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map1"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.eduardo.hotelcasamia.MapsActivity" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
